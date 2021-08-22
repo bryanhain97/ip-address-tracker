@@ -42,5 +42,3 @@ Note: For personal/professional use, please create your account and use your own
 <p>The project is under MIT license. For more details, visit <a href='LICENSE'>license<a>.</p>
 
 ---
-
-<p>Create with 💙 by <a href='https://github.com/rafaasimi/' target='_blank'>Rafael Simionato</a></p>
