@@ -1,12 +1,3 @@
-<p align='center'><img src="./design/desktop-preview.jpg"/></p>
-<p align='center'>
-<img src="https://img.shields.io/github/repo-size/rafaasimi/IPAddressTracker_FrontendMentor">
-<img src="https://img.shields.io/github/languages/count/rafaasimi/IPAddressTracker_FrontendMentor">
-<img src="https://img.shields.io/github/last-commit/rafaasimi/IPAddressTracker_FrontendMentor">
-<img src="https://img.shields.io/github/license/rafaasimi/IPAddressTracker_FrontendMentor">
-</p>
-
-
 # Frontend Mentor - IP Address Tracker
 
 ## 🔖 Description
