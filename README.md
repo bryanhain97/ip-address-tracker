@@ -18,6 +18,7 @@
 This project is using the following technologies:
 - HTML
 - CSS
+- React
 - Javascript
 - [Leafletjs](https://leafletjs.com/)
 - [Geo IPify](https://geo.ipify.org/)
