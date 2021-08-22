@@ -1,3 +1,67 @@
+.navbar {
+  font-family: "Alumni-Sans", sans-serif;
+  height: 160px;
+  border-radius: 15px;
+  max-width: 1100px;
+  width: 80vw;
+  background: #fff;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar-elements {
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar .nav-label {
+  color: #999;
+  font-size: 0.72rem;
+  letter-spacing: 0.13rem;
+}
+.navbar .nav-display {
+  margin: 10px 0;
+  color: black;
+  font-size: 2rem;
+}
+.navbar .seperate {
+  width: 1px;
+  background-color: #bbb;
+  height: 45%;
+}
 
+.header {
+  background-image: url("/src/components/images/pattern-bg.png");
+  background-size: cover;
+  width: 100vw;
+  height: 35vh;
+}
+
+.header-content {
+  width: 50vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-headline {
+  color: white;
+}
+
+html {
+  font-size: calc(60% + 0.8vmin);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: aqua;
+}
 
 /*# sourceMappingURL=index.css.map */

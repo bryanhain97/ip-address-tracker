@@ -1,11 +1,11 @@
-import '../styles/index.css';
-// import Navbar from "./Navbar"
-
+import Navbar from './Navbar/navbar.js';
+import Header from './Header/header.js';
 
 function App() {
   return (
     <div className="App">
-
+      <Header />
+      <Navbar />
     </div>
   );
 }

@@ -1,3 +1,16 @@
 // @use "../components/component1/_component1Style"
 // @use "../components/comopnentN/_componentNStyle"
+@use "../components/Navbar/navbar";
+@use "../components/Header/header";
+
+
+html {
+    font-size: calc(60% + 0.8vmin);
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:aqua;
+}
 
