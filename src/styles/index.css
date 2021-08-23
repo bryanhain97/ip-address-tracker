@@ -98,6 +98,11 @@
   background-color: black;
 }
 
+#mapid {
+  height: 70vh;
+  z-index: -1;
+}
+
 html {
   font-size: calc(60% + 0.8vmin);
 }
