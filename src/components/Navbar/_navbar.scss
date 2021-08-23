@@ -1,11 +1,14 @@
 .navbar {
+    position: relative;
+    top: calc(5vh + 10px);
     font-family: "Alumni-Sans", sans-serif;
-    height: 160px;
+    height: 10vh;
     border-radius: 15px;
     max-width: 1100px;
     width: 80vw;
     background: #fff;
     margin: 0 auto;
+    padding: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -14,7 +17,6 @@
         flex: 1 1;
         flex-direction: column;
         justify-content: space-evenly;
-        align-items: center;
     }
     & .nav-label {
         color: #999;

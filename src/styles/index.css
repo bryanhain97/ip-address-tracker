@@ -1,11 +1,14 @@
 .navbar {
+  position: relative;
+  top: calc(5vh + 10px);
   font-family: "Alumni-Sans", sans-serif;
-  height: 160px;
+  height: 10vh;
   border-radius: 15px;
   max-width: 1100px;
   width: 80vw;
   background: #fff;
   margin: 0 auto;
+  padding: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -15,7 +18,6 @@
   flex: 1 1;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center;
 }
 .navbar .nav-label {
   color: #999;
@@ -36,21 +38,64 @@
 .header {
   background-image: url("/src/components/images/pattern-bg.png");
   background-size: cover;
+  font-family: "Alumni-Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
   width: 100vw;
-  height: 35vh;
+  height: 30vh;
 }
 
 .header-content {
   width: 50vw;
+  height: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .header-headline {
   color: white;
+}
+
+.header-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+}
+
+.header-input {
+  font-size: 1rem;
+  border: 1px solid black;
+  padding: 0.25rem 0.5rem;
+  background-color: #fff;
+  text-align: left;
+  border-radius: 10px;
+  height: 35px;
+  width: 60%;
+  margin: 0;
+}
+
+.header-input:focus {
+  outline: none;
+}
+
+.header-button {
+  color: white;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 55px;
+  height: 40px;
+  border-style: none;
+  border-radius: 3px;
+  background-color: black;
 }
 
 html {
@@ -61,7 +106,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: aqua;
+  background: #bbb;
 }
 
 /*# sourceMappingURL=index.css.map */
