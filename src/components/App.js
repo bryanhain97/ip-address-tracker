@@ -1,4 +1,3 @@
-import Navbar from './Navbar/navbar.js';
 import Header from './Header/header.js';
 import Map from './Map/map.js';
 
