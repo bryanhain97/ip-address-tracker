@@ -41,7 +41,7 @@ function initMap() {
         id: 'mapbox/light-v10',
         tileSize: 512,
         zoomOffset: -1,
-        accessToken: 'pk.eyJ1IjoiYnJ5NG5oIiwiYSI6ImNrc3U0bmNqZTE1NnAzMXBueWw2Y2Y0cGgifQ.pOiO_jYezRu0x_l_mlw-bA';
+        accessToken: 'pk.eyJ1IjoiYnJ5NG5oIiwiYSI6ImNrc3U0bmNqZTE1NnAzMXBueWw2Y2Y0cGgifQ.pOiO_jYezRu0x_l_mlw-bA'
     }).addTo(map);
 }
 
