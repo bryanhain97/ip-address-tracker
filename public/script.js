@@ -1,6 +1,6 @@
 const displays = document.querySelectorAll('.nav-display');
 const ipDisplay = displays[0];
-const locationDisplay = diplays[1];
+const locationDisplay = displays[1];
 const timezoneDisplay = displays[2];
 const ispDisplay = displays[3];
 
@@ -18,9 +18,9 @@ async function getData(IPAddress) {
 
     return dataJSON;
 }
-function createNewMap() {
-    if (inputValue) {
-        const { ip, location: { country, city, lat, lng, timezone }, isp } = getData(formInput.value);
+async function createNewMap() {
+    if (formInput.value) {
+        const { ip, location: { country, city, lat, lng, timezone }, isp } = await getData(formInput.value);
         map.setView([lat, lng], 13);
         ipDisplay.textContent = ip;
         locationDisplay.textContent = `${city}, ${country}`;
