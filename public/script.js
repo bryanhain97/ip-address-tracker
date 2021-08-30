@@ -12,11 +12,15 @@ async function getData(IPAddress) {
     // test inputValue if pattern matches domain OR ipaddress.
     const APIKey = 'at_odkDilOoGEEVIdSky4kduvgq4QM26';
     const URL = `https://geo.ipify.org/api/v1?apiKey=${APIKey}&ipAddress=${formInputValue}`;
-    const fetchData = fetch(URL)
-        .then(res => res.json());
-    const dataJSON = await fetchData;
-
-    return dataJSON;
+    try {
+        const fetchData = fetch(URL)
+            .then(res => res.json());
+        const dataJSON = await fetchData;
+        return dataJSON;
+    }
+    catch (e) {
+        console.log("error when trying to fetch from URL", e)
+    }
 }
 async function createNewMap() {
     if (formInput.value) {
