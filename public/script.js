@@ -30,6 +30,7 @@ async function createNewMap() {
         alert("invalid value. try again!")
     }
 }
+formButton.addEventListener('click', createNewMap);
 // setView based on return value of getData();
 
 function initMap() {
@@ -46,4 +47,3 @@ function initMap() {
 }
 
 initMap();
-formButton.addEventListener('click', createNewMap);
