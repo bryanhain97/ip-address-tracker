@@ -10,7 +10,7 @@ const map = L.map(mapSection).setView([51.505, -0.09], 13);
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
-    id: '/mapbox/navigation-night-v1',
+    id: 'mapbox/navigation-night-v1',
     tileSize: 512,
     zoomOffset: -1,
     accessToken: 'pk.eyJ1IjoiYnJ5NG5oIiwiYSI6ImNrc3U0bmNqZTE1NnAzMXBueWw2Y2Y0cGgifQ.pOiO_jYezRu0x_l_mlw-bA'
